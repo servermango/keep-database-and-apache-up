@@ -1,17 +1,5 @@
 Checks whether services are running, if not, restarts them.
 
-Download
+One Click Setup for Checks Every Minute
 
-`wget https://cdn.jsdelivr.net/gh/servermango/keep-database-and-apache-up/keep_up.sh`
-
-Make it executable
-
-`chmod +x keep_up.sh`
-
-
-
-`crontab -e`
-
-
-
-Just create this file at desired location and add a cronjob entry as root
+`wget https://cdn.jsdelivr.net/gh/servermango/keep-database-and-apache-up/setup_keep_up.sh && chmod +x setup_keep_up.sh && ./setup_keep_up.sh`
